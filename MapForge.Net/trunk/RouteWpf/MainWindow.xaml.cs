@@ -35,9 +35,9 @@ namespace RouteWpf
 		{
 			base.EndInit();
 
-			XmlRenderTheme xmlRenderTheme = new ExternalRenderTheme(@"H:\projets\perso\Route\java\mapsforge-render-theme\src\main\resources\osmarender\osmarender.xml");
+			XmlRenderTheme xmlRenderTheme = new ExternalRenderTheme(@"osmarender.xml");
 			Theme theme = RenderThemeHandler.GetRenderTheme(xmlRenderTheme);
-			MapRenderer renderer = new MapRenderer(new MapDB.Reader.MapDatabase(@"H:\projets\Perso\france.map"), theme);
+			MapRenderer renderer = new MapRenderer(new MapDB.Reader.MapDatabase(@"france.map"), theme);
 			displayMap.MapProvider = renderer;
 			GeoPoint geoPoint = new GeoPoint("N43.2932E5.3745");//new GeoPoint(45.759723, 4.856);
 			displayMap.Position = geoPoint;
