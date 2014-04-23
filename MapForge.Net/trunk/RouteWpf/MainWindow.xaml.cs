@@ -13,8 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DisplayMap;
-using GraphicLibrary;
-using GraphicLibrary.Basic;
 using MapCore.Model;
 using MapCore.Projections;
 using RenderTheme;

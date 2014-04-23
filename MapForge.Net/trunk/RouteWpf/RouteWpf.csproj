@@ -108,10 +108,6 @@
       <Project>{16031117-0b2a-45d5-babc-7ce41e24490f}</Project>
       <Name>DisplayMap</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GraphicLibrary\GraphicLibrary.Net.csproj">
-      <Project>{368dddc3-2e9f-4eb0-8d0f-836f9cdd6e2e}</Project>
-      <Name>GraphicLibrary.Net</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MapCore\MapCore.Net.csproj">
       <Project>{f4764d37-59a2-4a19-933e-d6f11f71f70a}</Project>
       <Name>MapCore.Net</Name>
