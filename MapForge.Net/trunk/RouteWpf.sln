@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteWpf", "RouteWpf\RouteWpf.csproj", "{CBCAA3CD-50BF-4253-9578-1A9046B631E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapForgeDB.Net", "MapDatabase\MapForgeDB.Net.csproj", "{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapCore.Net", "MapCore\MapCore.Net.csproj", "{F4764D37-59A2-4A19-933E-D6F11F71F70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.csproj", "{40706765-8F54-49D3-9A94-018298F2A0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderTheme.Net", "RenderTheme\RenderTheme.Net.csproj", "{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapUtilities.Net", "MapsUtilities\MapUtilities.Net.csproj", "{3F0765E5-E26A-42E7-8615-D0598DE13653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicLibrary.Net", "GraphicLibrary\GraphicLibrary.Net.csproj", "{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayMap", "DisplayMap\DisplayMap.csproj", "{16031117-0B2A-45D5-BABC-7CE41E24490F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		RouteWpf|Any CPU = RouteWpf|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBCAA3CD-50BF-4253-9578-1A9046B631E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCAA3CD-50BF-4253-9578-1A9046B631E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCAA3CD-50BF-4253-9578-1A9046B631E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCAA3CD-50BF-4253-9578-1A9046B631E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCAA3CD-50BF-4253-9578-1A9046B631E0}.RouteWpf|Any CPU.ActiveCfg = RouteWpf|Any CPU
+		{CBCAA3CD-50BF-4253-9578-1A9046B631E0}.RouteWpf|Any CPU.Build.0 = RouteWpf|Any CPU
+		{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}.RouteWpf|Any CPU.ActiveCfg = RouteWpf|Any CPU
+		{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}.RouteWpf|Any CPU.Build.0 = RouteWpf|Any CPU
+		{F4764D37-59A2-4A19-933E-D6F11F71F70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4764D37-59A2-4A19-933E-D6F11F71F70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4764D37-59A2-4A19-933E-D6F11F71F70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4764D37-59A2-4A19-933E-D6F11F71F70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4764D37-59A2-4A19-933E-D6F11F71F70A}.RouteWpf|Any CPU.ActiveCfg = RouteWpf|Any CPU
+		{F4764D37-59A2-4A19-933E-D6F11F71F70A}.RouteWpf|Any CPU.Build.0 = RouteWpf|Any CPU
+		{40706765-8F54-49D3-9A94-018298F2A0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40706765-8F54-49D3-9A94-018298F2A0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40706765-8F54-49D3-9A94-018298F2A0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40706765-8F54-49D3-9A94-018298F2A0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40706765-8F54-49D3-9A94-018298F2A0EC}.RouteWpf|Any CPU.ActiveCfg = RouteWpf|Any CPU
+		{40706765-8F54-49D3-9A94-018298F2A0EC}.RouteWpf|Any CPU.Build.0 = RouteWpf|Any CPU
+		{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}.RouteWpf|Any CPU.ActiveCfg = RouteWpf|Any CPU
+		{BE1A0803-AF24-48A3-9ACA-EEC0B8AA4406}.RouteWpf|Any CPU.Build.0 = RouteWpf|Any CPU
+		{3F0765E5-E26A-42E7-8615-D0598DE13653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0765E5-E26A-42E7-8615-D0598DE13653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0765E5-E26A-42E7-8615-D0598DE13653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0765E5-E26A-42E7-8615-D0598DE13653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0765E5-E26A-42E7-8615-D0598DE13653}.RouteWpf|Any CPU.ActiveCfg = RouteWpf|Any CPU
+		{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}.RouteWpf|Any CPU.ActiveCfg = Release|Any CPU
+		{368DDDC3-2E9F-4EB0-8D0F-836F9CDD6E2E}.RouteWpf|Any CPU.Build.0 = Release|Any CPU
+		{16031117-0B2A-45D5-BABC-7CE41E24490F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16031117-0B2A-45D5-BABC-7CE41E24490F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16031117-0B2A-45D5-BABC-7CE41E24490F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16031117-0B2A-45D5-BABC-7CE41E24490F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16031117-0B2A-45D5-BABC-7CE41E24490F}.RouteWpf|Any CPU.ActiveCfg = Release|Any CPU
+		{16031117-0B2A-45D5-BABC-7CE41E24490F}.RouteWpf|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

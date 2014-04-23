@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A9C62A9-0286-4C59-87DF-AC1A3A28E396}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MapForgeDb</RootNamespace>
+    <AssemblyName>MapForgeDb.Net</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RouteWpf|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RouteWpf\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Reader\Deserializer.cs" />
+    <Compile Include="Reader\Header\MapFileHeader.cs" />
+    <Compile Include="Reader\Header\MapFileInfo.cs" />
+    <Compile Include="Reader\Header\MapFileInfoBuilder.cs" />
+    <Compile Include="Reader\Header\OptionalFields.cs" />
+    <Compile Include="Reader\Header\RequiredFields.cs" />
+    <Compile Include="Reader\Header\SubFileParameter.cs" />
+    <Compile Include="Reader\Header\SubFileParameterBuilder.cs" />
+    <Compile Include="Reader\IndexCache.cs" />
+    <Compile Include="Reader\IndexCacheEntryKey.cs" />
+    <Compile Include="Reader\MapDatabase.cs" />
+    <Compile Include="Reader\MapReadResult.cs" />
+    <Compile Include="Reader\MapReadResultBuilder.cs" />
+    <Compile Include="Reader\NodeWayBundle.cs" />
+    <Compile Include="Reader\QueryCalculations.cs" />
+    <Compile Include="Reader\QueryParameters.cs" />
+    <Compile Include="Reader\ReadBuffer.cs" />
+    <Compile Include="Reader\ZoomTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapCore\MapCore.Net.csproj">
+      <Project>{f4764d37-59a2-4a19-933e-d6f11f71f70a}</Project>
+      <Name>MapCore.Net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

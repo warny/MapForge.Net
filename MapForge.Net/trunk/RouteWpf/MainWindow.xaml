@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:DisplayMap="clr-namespace:DisplayMap;assembly=DisplayMap" 
+        x:Class="RouteWpf.MainWindow"
+        Title="MainWindow" Height="379.167" Width="586.979"
+        x:Name="window">
+    <Canvas x:Name="holder">
+        <DisplayMap:Map x:Name="displayMap" Height="{Binding Path=ActualHeight, ElementName=window}" Width="{Binding Path=ActualWidth, ElementName=window}"/>
+    </Canvas>
+</Window>
